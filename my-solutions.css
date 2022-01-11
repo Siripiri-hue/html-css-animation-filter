@@ -25,3 +25,11 @@
     border-radius: 100%;
 }
 
+/* Esercizio 4 */
+.ex-4-square {
+    transition: background-color 0.5s ease-out;
+}
+.ex-4-square:hover {
+    background-color: transparent;
+}
+
