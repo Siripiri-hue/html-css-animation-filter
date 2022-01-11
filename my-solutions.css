@@ -69,3 +69,13 @@
     border-radius: 50px;
     filter: grayscale(1);
 }
+
+/* Esercizio 9 */
+.ex-9-img {
+    transition: all 3s linear;
+}
+.ex-9-img:hover {
+    border-radius: 50px;
+    filter: grayscale(1);
+    transform: scale(2, 2);
+}
