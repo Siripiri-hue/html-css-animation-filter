@@ -79,3 +79,15 @@
     filter: grayscale(1);
     transform: scale(2, 2);
 }
+/* Esercizio 10 */
+.ex-10-icon {
+    animation: spin 1s infinite linear;
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
